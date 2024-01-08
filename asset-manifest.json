@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.js": "/static/js/main.d20e73b6.js",
+    "static/css/217.47418659.chunk.css": "/static/css/217.47418659.chunk.css",
+    "static/js/217.8dd520bd.chunk.js": "/static/js/217.8dd520bd.chunk.js",
+    "static/css/990.88562946.chunk.css": "/static/css/990.88562946.chunk.css",
+    "static/js/990.4fbc2831.chunk.js": "/static/js/990.4fbc2831.chunk.js",
+    "static/js/807.186f1a18.chunk.js": "/static/js/807.186f1a18.chunk.js",
+    "static/js/42.6b71cb03.js": "/static/js/42.6b71cb03.js",
+    "static/js/781.087664fa.chunk.js": "/static/js/781.087664fa.chunk.js",
+    "static/js/198.d4f2733c.chunk.js": "/static/js/198.d4f2733c.chunk.js",
+    "static/media/MaterialCommunityIcons.ttf": "/static/media/MaterialCommunityIcons.5d42b4e60858731e7b65.ttf",
+    "static/media/logo.png": "/static/media/logo.7a15faa30db05a4e5931.png",
+    "static/media/adaptive-icon.png": "/static/media/adaptive-icon.c1dd00ac0d2c885de770.png",
+    "index.html": "/index.html",
+    "favicon.png": "/favicon.png",
+    "404.html": "/404.html",
+    "manifest.json": "/manifest.json",
+    "serve.json": "/serve.json",
+    "ads.txt": "/ads.txt",
+    "app-ads.txt": "/app-ads.txt",
+    "CNAME": "/CNAME",
+    "main.d20e73b6.js.map": "/static/js/main.d20e73b6.js.map",
+    "217.47418659.chunk.css.map": "/static/css/217.47418659.chunk.css.map",
+    "217.8dd520bd.chunk.js.map": "/static/js/217.8dd520bd.chunk.js.map",
+    "990.88562946.chunk.css.map": "/static/css/990.88562946.chunk.css.map",
+    "990.4fbc2831.chunk.js.map": "/static/js/990.4fbc2831.chunk.js.map",
+    "807.186f1a18.chunk.js.map": "/static/js/807.186f1a18.chunk.js.map",
+    "42.6b71cb03.js.map": "/static/js/42.6b71cb03.js.map",
+    "781.087664fa.chunk.js.map": "/static/js/781.087664fa.chunk.js.map",
+    "198.d4f2733c.chunk.js.map": "/static/js/198.d4f2733c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/42.6b71cb03.js",
+    "static/js/main.d20e73b6.js"
+  ]
+}
