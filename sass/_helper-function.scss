@@ -1,0 +1,46 @@
+@mixin placeholder {
+    &::-webkit-input-placeholder {
+        /* Chrome/Opera/Safari */
+        @content;
+    }
+    &::-moz-placeholder {
+        /* Firefox 19+ */
+        @content;
+    }
+    &:-ms-input-placeholder {
+        /* IE 10+ */
+        @content;
+    }
+    &:-moz-placeholder {
+        /* Firefox 18- */
+        @content;
+    }
+}
+
+@mixin thmGradient () {
+    background: rgb(255, 224, 140);
+    background: -moz-linear-gradient(left, rgb(255, 224, 140) 0%, rgb(249, 231, 184) 98%, rgb(249, 231, 184) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgb(255, 224, 140)), color-stop(98%, rgb(249, 231, 184)), color-stop(100%, rgb(249, 231, 184)));
+    background: -webkit-linear-gradient(left, rgb(255, 224, 140) 0%, rgb(249, 231, 184) 98%, rgb(249, 231, 184) 100%);
+    background: -o-linear-gradient(left, rgb(255, 224, 140) 0%, rgb(249, 231, 184) 98%, rgb(249, 231, 184) 100%);
+    background: -ms-linear-gradient(left, rgb(255, 224, 140) 0%, rgb(249, 231, 184) 98%, rgb(249, 231, 184) 100%);
+    background: linear-gradient(to right, rgb(255, 224, 140) 0%, rgb(249, 231, 184) 98%, rgb(249, 231, 184) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6541c1', endColorstr='#d43396', GradientType=1);
+}
+
+@mixin thmGradientInverse () {
+    background: rgb(249, 231, 184);
+    background: -moz-linear-gradient(left, rgb(249, 231, 184) 0%, rgb(255, 224, 140) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgb(249, 231, 184)), color-stop(100%, rgb(255, 224, 140)));
+    background: -webkit-linear-gradient(left, rgb(249, 231, 184) 0%, rgb(255, 224, 140) 100%);
+    background: -o-linear-gradient(left, rgb(249, 231, 184) 0%, rgb(255, 224, 140) 100%);
+    background: -ms-linear-gradient(left, rgb(249, 231, 184) 0%, rgb(255, 224, 140) 100%);
+    background: linear-gradient(to right, rgb(249, 231, 184) 0%, rgb(255, 224, 140) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d43396', endColorstr='#6541c1', GradientType=1);
+}
+
+@mixin thmGradientText {
+    background: linear-gradient(to right, rgb(255, 224, 140) 0%, rgb(249, 231, 184) 98%, rgb(249, 231, 184) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
